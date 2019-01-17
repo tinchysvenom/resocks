@@ -1,2 +1,2 @@
 web: gunicorn doras:app --log-file -
-worker: python wakdeploy.py
+worker: python restest.py
