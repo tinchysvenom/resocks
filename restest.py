@@ -5,7 +5,11 @@ Created on Thu Jan 17 17:10:41 2019
 @author: USER
 """
 
+import time
 import resource
+
+
+print(time.localtime())
 
 maxsize = 500000000 # In bytes
 try:
